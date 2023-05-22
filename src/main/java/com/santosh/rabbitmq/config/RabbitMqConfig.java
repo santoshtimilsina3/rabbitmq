@@ -41,5 +41,10 @@ public class RabbitMqConfig {
                 .with(routingKey)
                 ;
     }
+//Rabbitmq automatically configures these below three configurations
+    //ConnectionFactory
+    //RabbitMqTemplate
+    //RabitAdmin
+
 
 }
