@@ -30,7 +30,6 @@ public class RabbitMqProducer {
         LOGGER.info(String.format("Message Sent -> %s ", message));
         //use rabbittemplate to send the message to queue
         rabbitTemplate.convertAndSend(exchange, routingKey, message);
-
     }
 
 }
